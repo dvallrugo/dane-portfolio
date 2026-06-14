@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Cybersecurity-focused portfolio for Dane: resume, projects, organizations, skills, and contact links."
+    >
+    <title>Dane | Cybersecurity Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Dane home">
+        <span class="brand-mark">D</span>
+        <span>Dane Vallrugo</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#organizations">Organizations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <canvas class="matrix-background" data-matrix-bg aria-hidden="true"></canvas>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Portfolio / Resume / Project Index</p>
+          <h1 id="hero-title">Dane Vallrugo </h1>
+          <p class="hero-copy">
+            Cybersecurity, Systems Software, Data Structures & Algorithms
+          </p>
+
+          <div class="hero-actions" aria-label="Quick actions">
+            <a class="button primary" href="#resume">View Resume</a>
+            <a class="button secondary" href="#projects">See Projects</a>
+          </div>
+
+          <div class="handle-strip" aria-label="Professional handles">
+            <a href="https://github.com/dvallrugo" target="_blank" rel="noreferrer">
+              <span>GitHub</span>
+              <strong>@dvallrugo</strong>
+            </a>
+            <a href="https://www.linkedin.com/in/dane-vallrugo-270743239/" target="_blank" rel="noreferrer">
+              <span>LinkedIn</span>
+              <strong>/in/dane-vallrugo</strong>
+            </a>
+            <a href="mailto:dvallrugo10@gmail.com">
+              <span>Email</span>
+              <strong>dvallrugo10@gmail.com</strong>
+            </a>
+            <a href="tel:9417809486">
+              <span>Phone</span>
+              <strong>941-780-9486</strong>
+            </a>
+          </div>
+      </section>
+
+      <section class="section intro-band" id="about" aria-labelledby="about-title">
+        <div class="section-kicker">About Me</div>
+        <div class="split">
+          <div>
+            <h2 id="about-title">
+              <span>"Computer science is no more about computers than astronomy is about telescopes."</span>
+              <span>- Edsger W. Dijkstra</span>
+            </h2>
+          </div>
+          <div class="prose">
+            <p>
+              I am a Computer Science student at the University of Central Florida
+              with a minor in Mathematics, on the cybersecurity track.
+            </p>
+            <p>
+              Applying strong engineering fundamentals to security, I design automated systems and LLM workflows that simplify
+              vulnerability scanning and threat analysis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="resume" aria-labelledby="resume-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Resume</div>
+            <h2 id="resume-title">Skills, Education, & Experience</h2>
+          </div>
+          <a class="button compact" href="resume.pdf" aria-label="Download resume PDF">Download PDF</a>
+        </div>
+
+        <article class="resume-download panel" aria-labelledby="resume-download-title">
+          <div>
+            <h3 id="resume-download-title">Full resume download</h3>
+          </div>
+          <div class="resume-file-actions">
+            <a class="button primary" href="resume.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+            <a class="button secondary" href="resume.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <div class="resume-layout">
+          <article class="panel education-panel">
+            <div class="education-topline">
+              <span class="terminal-label">Education</span>
+              <span>Orlando, FL</span>
+            </div>
+            <h3>University of Central Florida</h3>
+            <p class="degree">Bachelor of Science in Computer Science</p>
+            <p class="minor">Minor in Mathematics</p>
+
+            <dl class="education-details">
+              <div>
+                <dt>Expected Graduation</dt>
+                <dd>May 2028</dd>
+              </div>
+              <div>
+                <dt>Scholarship</dt>
+                <dd>Bright Futures Scholar</dd>
+              </div>
+            </dl>
+
+            <div class="education-focus" aria-label="Academic focus areas">
+              <span>Algorithms</span>
+              <span>Systems</span>
+              <span>Discrete Math</span>
+              <span>Security</span>
+              <span>Software Engineering</span>
+            </div>
+          </article>
+
+          <article class="panel">
+            <h3>Skills</h3>
+            <div class="tag-group" aria-label="Skills">
+              <span>Python</span>
+              <span>Java</span>
+              <span>C/C++</span>
+              <span>SQL</span>
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+              <span>Linux</span>
+              <span>Git</span>
+              <span>Docker</span>
+              <span>React</span>
+              <span>Next.js</span>
+              <span>FastAPI</span>
+              <span>Node.js</span>
+              <span>PostgreSQL</span>
+              <span>Firebase</span>
+              <span>AWS</span>
+              <span>Boto3</span>
+              <span>OpenAI API</span>
+              <span>LangChain</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Experience</div>
+            <h2 id="experience-title">Product engineering with AI systems</h2>
+          </div>
+        </div>
+
+        <article class="experience-card panel">
+          <div class="experience-meta">
+            <p class="terminal-label">Dec. 2025 - Present</p>
+            <span>Junior Development Lead</span>
+          </div>
+          <div>
+            <h3>Recruit Athena LLC</h3>
+            <p>
+              Developed an AI-driven recruitment platform for campus organizations,
+              replacing manual tracking with a centralized system for recruitment
+              pipelines and candidate interactions
+            </p>
+            <ul class="detail-list">
+              <li>Created interactive frontends for recruitment chairs meant to deal with a high volume of users.</li>
+              <li>Implemented LLM-driven assistants for candidate evaluation and correspondence using prompt engineering and system architecture.</li>
+              <li>Built full-stack AI features with React.js/Next.js, FastAPI/Node.js, LangChain, OpenAI API, PostgreSQL, and Firebase.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Projects</div>
+            <h2 id="projects-title">Cybersecurity Applications & Utilities</h2>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-type">Cloud Security</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>CloudGuard Lite</h3>
+            <p>
+              Python CLI security auditor using Boto3 to inspect AWS settings
+              for public S3 buckets, privileged IAM roles, outdated access keys,
+              and missing CloudTrail logging.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-type">Risk Engine</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>AWS Risk Scoring</h3>
+            <p>
+              Tailored severity engine that classifies AWS findings, explains
+              operational risk, and produces actionable remediation steps for
+              reducing cloud attack surface.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-type">Reporting</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>Markdown Audit Reports</h3>
+            <p>
+              Automated reporting that translates complex AWS API responses into
+              organized terminal output and persistent Markdown documentation
+              using CLI tooling and Jinja2 templates.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="organizations" aria-labelledby="org-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Organizations</div>
+            <h2 id="org-title">Involvement & Leadership</h2>
+          </div>
+        </div>
+
+        <div class="org-list">
+          <article class="org-row">
+            <div>
+              <h3>KnightHacks @ UCF</h3>
+            </div>
+            <span>Practice</span>
+          </article>
+
+          <article class="org-row">
+            <div>
+              <h3>Hack @ UCF</h3>
+            </div>
+            <span>Service</span>
+          </article>
+
+          <article class="org-row">
+            <div>
+              <h3>Phi Delta Theta</h3>
+              <p></p>
+            </div>
+            <span>Growth</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <div class="section-kicker">Contact</div>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:dvallrugo10@gmail.com">Email Me</a>
+          <a class="button secondary" href="tel:9417809486">Call</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/dane-vallrugo-270743239/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/dvallrugo" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Dane Vallrugo</span>
+      <span>Cybersecurity portfolio built for fast employer review.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
